@@ -1,9 +1,10 @@
 ###App configuration:
-Ruby v2.2.4 .
-Rails v4.0.13 .
-
+Ruby v2.2.4 & Rails v4.0.13 .
+	
 ###Run app:
+#Install gems in Gemfile
 > bundle install .
+#Start rails server
 > run rails s .
 
 
