@@ -1,0 +1,5 @@
+current directory: /home/kim/Downloads/todo/vendor/bundle/ruby/2.5.0/gems/bcrypt-3.1.13/ext/mri
+/usr/bin/ruby2.5 -r ./siteconf20200110-19816-1nx7ppo.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+extconf failed, exit code 1

@@ -1,0 +1,19 @@
+current directory: /home/kim/Downloads/todo/vendor/bundle/ruby/2.5.0/gems/bcrypt-3.1.10/ext/mri
+/home/kim/.rvm/rubies/ruby-2.5.1/bin/ruby -r ./siteconf20200110-22045-11ja3ah.rb extconf.rb
+creating Makefile
+
+current directory: /home/kim/Downloads/todo/vendor/bundle/ruby/2.5.0/gems/bcrypt-3.1.10/ext/mri
+make "DESTDIR=" clean
+
+current directory: /home/kim/Downloads/todo/vendor/bundle/ruby/2.5.0/gems/bcrypt-3.1.10/ext/mri
+make "DESTDIR="
+compiling bcrypt_ext.c
+compiling crypt.c
+compiling crypt_blowfish.c
+compiling crypt_gensalt.c
+compiling wrapper.c
+linking shared-object bcrypt_ext.so
+
+current directory: /home/kim/Downloads/todo/vendor/bundle/ruby/2.5.0/gems/bcrypt-3.1.10/ext/mri
+make "DESTDIR=" install
+/usr/bin/install -m 0755 bcrypt_ext.so ./.gem.20200110-22045-1axg8t0

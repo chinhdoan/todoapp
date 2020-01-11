@@ -1,0 +1,47 @@
+link#bootstrap-css href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" /
+/! ---- Include the above in your HEAD tag --------
+body
+  .container
+    .row
+      .col-md-6
+        .todolist.not-done
+          h2 style=("font-size: 25px ; text-align: center") 
+            | Demo Todos UI 
+          p style=("font-size: 14px ; text-align: center ; opacity:0.2") 
+            | Sign in to save your works           
+          br/
+          input.form-control.add-todo placeholder=("Add todo") type="text" /
+          button#checkAll.btn.btn-success Mark all as done
+          hr/
+          ul#sortable.list-unstyled
+            li.ui-state-default
+              .checkbox
+                label
+                  input type="checkbox" value="" 
+                  | 18h 3/1/2020 Tham gia shark tank
+            li.ui-state-default
+              .checkbox
+                label
+                  input type="checkbox" value="" 
+                  | Buy bread
+            li.ui-state-default
+              .checkbox
+                label
+                  input type="checkbox" value="" 
+                  | Teach penguins to fly
+          .todo-footer
+            strong
+              span.count-todos
+            | Items Left
+      .col-md-6
+        .todolist
+          h2 style=("text-align: center")  Already Done
+          hr/
+          ul#done-items.list-unstyled
+            li
+              | 1/11/2019 Nhận hàng ship trên eBay
+              button.remove-item.btn.btn-default.btn-xs.pull-right
+                span.glyphicon.glyphicon-remove
+  hr/
+  body/
+  
